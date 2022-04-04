@@ -37,21 +37,21 @@
     {
       "id": 6,
       "rating": 4.8,
-      "name": "Imelda Patrick",
+      "name": "Criss Gayle",
       "review": "Faulty headphone, only worked in one ear Crackling in one ear and occasinally can hear clearly, suggesting that there is a losse conection",
       "image" : "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     },
     {
       "id": 7,
       "rating": 4.3,
-      "name": "Imelda Patrick",
+      "name": "James  Anderson",
       "review": "Love this Products.I use them for everything from running to commuting.the one and only negative is the size in ear.A little chukky so thet stick out a bit",
       "image" : "https://images.unsplash.com/photo-1545996124-0501ebae84d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
     },
     {
       "id": 8,
       "rating": 4.0,
-      "name": "Imelda Patrick",
+      "name": "Shone Polock",
       "review": "Has been great soo far.onects easily and quickly.Would recommended",
       "image" : "https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     },
@@ -59,7 +59,7 @@
       "id": 9,
       "rating": 4.7,
       "review": "Viewers can see the difrence your products or services have made.You can build a stronger conection with your customers,making it easier to put themselves in their shoes.These deeper conections can spark more sales",
-      "name": "Imelda Patrick",
+      "name": "Criss Hamerson",
       "image" : "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     },
     {
@@ -72,14 +72,14 @@
     {
       "id": 11,
       "rating": 4.5,
-      "name": "Imelda Patrick",
+      "name": "Jason Bay",
       "review": "The best product are built to last,plus they'are designed with ergonomics and healthy postured in mind.",
       "image" : "https://images.unsplash.com/photo-1587397845856-e6cf49176c70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     },
     {
       "id": 12,
       "rating": 4.6,
-      "name": "Imelda Patrick",
+      "name": "Adam Gillcrist",
       "review": "Exceptional value for money.Comfortable .Easy to use",
       "image" : "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     }
