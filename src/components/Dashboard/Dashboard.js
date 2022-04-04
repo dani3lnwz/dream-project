@@ -45,7 +45,7 @@ const Dashboard = () => {
             <LineChart width={800} height={500} data={data}>
                 <Line dataKey={'revenue'}></Line>
                 <Line dataKey={'investment'}></Line>
-                <XAxis dataKey="month"></XAxis>
+                <XAxis dataKey="month" ></XAxis>
                 <Tooltip></Tooltip>
                 <YAxis></YAxis>
             </LineChart>
