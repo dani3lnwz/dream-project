@@ -20,7 +20,7 @@ const ProductReview = () => {
                 }
                 
             </div>
-            <button className='text-3xl font-bold text-red-600' onClick={()=> navigate('/reviews')}>See all reviews...</button>
+            <button className='text-3xl font-bold text-red-600 border-2 bg-gray-300 m-2 p-2' onClick={()=> navigate('/reviews')}>See all reviews...</button>
         </div>
     );
 };

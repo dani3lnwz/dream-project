@@ -41,7 +41,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='grid md:grid-cols-2 gap-0 mt-8'>
+        <div className='grid md:grid-cols-2 gap-0 mt-8 mx-10'>
             <div>
             <LineChart width={500} height={400} data={data}>
                 <Line dataKey={'revenue'}></Line>
@@ -52,7 +52,7 @@ const Dashboard = () => {
             </LineChart>
             </div>
 
-            <BarChart width={800} height={400} data={data}>
+            <BarChart width={500} height={400} data={data}>
                 <Bar dataKey="sell" fill="#8884d8"></Bar>
                 <Line dataKey={'investment'}></Line>
                 <XAxis dataKey="month"></XAxis>
