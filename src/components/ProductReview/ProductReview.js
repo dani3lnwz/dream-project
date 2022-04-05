@@ -10,7 +10,7 @@ const ProductReview = () => {
 
     return (
         <div   >
-            <h1 className='text-4xl font-bold text-orange-600'>Custtomer reviews(3)</h1>
+            <h1 className='text-4xl font-bold text-orange-600'>Customer Reviews(3)</h1>
             <div className='grid grid-cols-3 gap-5 mx-10 p-20'>
                 {
                     reviewData.map(review => <Review

@@ -5,11 +5,7 @@ import useGuiterReview from '../hooks/useGuiterReview';
 
 const Reviews = () => {
     const [reviews, setReviews] = useGuiterReview([]);
-    // useEffect ( () => {
-    //     fetch('data.json')
-    //     .then(res => res.json())
-    //     .then(data => setReviews(data));
-    // }, [])
+    
     return (
         <div className='grid md:grid-cols-4 gap-5 m-8 p-5 border-2'>
             
