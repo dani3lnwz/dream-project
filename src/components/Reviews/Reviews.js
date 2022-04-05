@@ -1,18 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import Review from '../Review/Review';
+import useGuiterReview from '../hooks/useGuiterReview';
+
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([]);
-    useEffect ( () => {
-        fetch('data.json')
-        .then(res => res.json())
-        .then(data => setReviews(data));
-    }, [])
+    const [reviews, setReviews] = useGuiterReview([]);
+    // useEffect ( () => {
+    //     fetch('data.json')
+    //     .then(res => res.json())
+    //     .then(data => setReviews(data));
+    // }, [])
     return (
-        <div className='grid md:grid-cols-3 gap-5 mt-8 border-2'>
+        <div className='grid md:grid-cols-4 gap-5 m-8 p-5 border-2'>
             
             {
-                reviews.map(review => <Review key={review.id}review={review}></Review>)
+                reviews.map(review => <Review 
+                    key={review.id}
+                    review={review}></Review>)
             }
         </div>
     );

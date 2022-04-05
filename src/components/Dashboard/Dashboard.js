@@ -41,14 +41,16 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div>
-            <LineChart width={800} height={500} data={data}>
+        <div className='grid md:grid-cols-2 gap-0 mt-8'>
+            <div>
+            <LineChart width={500} height={400} data={data}>
                 <Line dataKey={'revenue'}></Line>
                 <Line dataKey={'investment'}></Line>
                 <XAxis dataKey="month" ></XAxis>
                 <Tooltip></Tooltip>
                 <YAxis></YAxis>
             </LineChart>
+            </div>
 
             <BarChart width={800} height={400} data={data}>
                 <Bar dataKey="sell" fill="#8884d8"></Bar>
